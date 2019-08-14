@@ -1,0 +1,123 @@
+
+
+
+h1{
+    color: purple;
+    font-family: 'Nanum Myeongjo', serif;
+
+
+}
+
+#name{
+    font-size: 100%;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+body { 
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  
+  }
+
+  .card{
+      opacity: .85;
+      text-align: center;
+  }
+
+  #contactForm{
+    opacity: .9;
+    text-align: center;
+    
+}
+
+  .jumbotron{
+background: transparent;
+align-content: center;
+text-align: center;
+padding-bottom: 0px;
+  }
+  
+  #welcome{
+      color: white;
+      font-family: 'Dancing Script', cursive;
+      font-size: 5rem;
+  }
+
+  #welcomeSubtitle{
+      color: whitesmoke;
+  }
+  .card-deck{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+
+  #secondJumbotron{
+      background-color: white;
+      opacity: .85;
+      object-fit: fill;
+      padding-bottom: 40px;
+
+
+  }
+
+
+
+.material-icons.md-18{
+    font-size: 18px;
+    
+}
+
+.material-icons.md-60{
+    font-size: 60px;
+    color: #8494C8;
+    
+}
+.btn{
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+color: white;
+background-color: #8494C8;
+opacity: .95;
+}
+
+a {
+    color: white;
+  }
+
+#portfolioContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: .90;
+    
+
+}
+
+.card-img-overlay{
+    text-align: center;
+    margin: 0px;
+
+}
+
+.card-title.portfolio{
+    padding:10px;
+    color: white;
+    text-shadow: -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
+    background-color: #8494C8;
+    margin-top: 40%;
+  
+}
+  
+.embed-responsive-16by9{
+    height: 17rem;
+    object-fit: cover;
+    border: 1px white solid;
+    
+}
+
+
+
+
