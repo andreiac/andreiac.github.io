@@ -86,6 +86,7 @@ opacity: .95;
 
 a {
     color: white;
+    
   }
 
 #portfolioContainer{
@@ -96,28 +97,32 @@ a {
 
 }
 
-.card-img-overlay{
-    text-align: center;
-    margin: 0px;
-
-}
-
-.card-title.portfolio{
-    padding:10px;
-    color: white;
-    text-shadow: -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
-    background-color: #8494C8;
-    margin-top: 40%;
   
-}
-  
-.embed-responsive-16by9{
-    height: 17rem;
-    object-fit: cover;
-    border: 1px white solid;
+.embed-responsive{
+    height: 16rem;
+    opacity: .8;
     
 }
 
+.container.portfolio{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
 
+.container.portfolio .content{
+position: relative;
+bottom: 0px;
+background: white;
+background: rgba(132, 148, 200, 0.85);
+color: white;
+text-shadow: -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
+padding: 5px;
+}
+
+img{
+    border: 1px white solid;
+}
 
 
