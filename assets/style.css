@@ -105,14 +105,21 @@ a {
     margin-bottom: 50px;
     opacity: .90;
     
+    
 
 }
 
   
 .embed-responsive{
-    height: 16rem;
+    height: 18rem;
+    width: 18rem;
     opacity: .8;
-    
+    border-radius: 50%;
+    align-content: center;
+    object-fit: cover;
+    margin: 0 auto;
+
+
 }
 
 .container.portfolio{
@@ -122,18 +129,21 @@ a {
     padding: 15px;
 }
 
-.container.portfolio .content{
+.figure {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.container.portfolio .content {
 position: relative;
 bottom: 0px;
-background: white;
-background: rgba(132, 148, 200, 0.85);
 color: white;
 text-shadow: -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
-padding: 5px;
 }
 
 img{
-    border: 1px white solid;
+    border: 1.5px white solid;
+    
 }
 
 
