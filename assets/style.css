@@ -16,10 +16,7 @@ h1{
 
 body { 
     background-image: url("./images/background.jpg");
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center; 
-    top: 0px;
+    
   
   }
 
