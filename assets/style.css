@@ -15,19 +15,27 @@ h1{
 }
 
 body { 
-    background-image: url("./images/background.jpg");
-    
+    background-image: url("./images/tile1.jpg");
+    object-fit: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    top: 0px;
   
   }
 
   .card{
       opacity: .85;
       text-align: center;
+      box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.75);
+
   }
 
   #contactForm{
     opacity: .9;
     text-align: center;
+    box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.75);
+
     
 }
 
@@ -36,6 +44,7 @@ background: transparent;
 align-content: center;
 text-align: center;
 padding-bottom: 0px;
+
   }
 
   .jumbotron.andreia{
@@ -51,6 +60,8 @@ padding-bottom: 0px;
       font-size: 5rem;
       padding-top: 0px;
       margin-top: 0px;
+      
+      
   }
 
   #welcomeSubtitle{
@@ -59,9 +70,12 @@ padding-bottom: 0px;
   .card-deck{
       padding-left: 20px;
       padding-right: 20px;
+      
   }
 .navbar{
     margin-bottom: 0px;
+    box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.75);
+
 }
 
   #secondJumbotron{
@@ -69,6 +83,8 @@ padding-bottom: 0px;
       opacity: .85;
       object-fit: fill;
       padding-bottom: 40px;
+      box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.75);
+
 
 
   }
@@ -96,6 +112,11 @@ a {
     
   }
 
+  .embed-responsive-16by9 :hover{
+      color: white !important;
+      border: none !important;
+  }
+
 #portfolioContainer{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -114,6 +135,8 @@ a {
     align-content: center;
     object-fit: cover;
     margin: 0 auto;
+    box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.75);
+
 
 
 }
