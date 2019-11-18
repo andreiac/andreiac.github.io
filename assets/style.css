@@ -17,7 +17,7 @@ h1{
 body { 
     background-image: url("./images/background.jpg");
     object-fit: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     top: 0px;
